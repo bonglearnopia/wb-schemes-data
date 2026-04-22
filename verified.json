@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Kanyashree Prakalpa",
+    "tags": ["student", "girl", "education"],
+    "eligibility": ["Unmarried girls", "Age 13-18", "West Bengal resident"],
+    "benefit": "Annual scholarship of ₹1,000 and one-time grant of ₹25,000.",
+    "verified": true,
+    "source": "https://www.wbkanyashree.gov.in/"
+  },
+  {
+    "name": "Swami Vivekananda Merit-cum-Means Scholarship (SVMCM)",
+    "tags": ["student", "education", "merit"],
+    "eligibility": ["Resident of WB", "Studying in Class 11 or higher", "50% to 60% marks in last exam"],
+    "benefit": "₹1,000 to ₹5,000 per month depending on the course.",
+    "verified": true,
+    "source": "https://svmcm.wbhed.gov.in/"
+  }
+]
+
