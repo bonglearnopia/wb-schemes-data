@@ -1,18 +1,18 @@
 name: Daily Scheme Scraper
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs at midnight every day
-  workflow_dispatch: # Allows you to run it manually for testing
+    - cron: '0 0 * * *'
+  workflow_dispatch: 
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20' # Using a newer version to fix the error
       - name: Install dependencies
         run: npm install axios cheerio
       - name: Run Scraper
